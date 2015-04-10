@@ -1,0 +1,14 @@
+{
+    "version": "1.0.0",
+    "name": "org.frd49.cordova.exitapp",
+    "cordova_name": "ExitApp",
+    "description": "Implements navigator.app.exitApp on iOS ",
+    "license": "Apache 2.0",
+    "keywords": [
+        "exitApp"
+    ],
+    "platforms": [
+        "ios"
+    ],
+    "engines": []
+}
