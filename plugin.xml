@@ -4,10 +4,10 @@
    <description>Implements navigator.app.exitApp on iOS </description>
    <license>Apache 2.0</license>
    <keywords>exitApp, iOS, terminate, exit, kill</keywords>
-   <js-module src="www/exitApp.js" name="CDVExitApp">
-      <clobbers target="navigator.app" />
-   </js-module>
    <platform name="ios">
+      <js-module src="www/exitApp.js" name="CDVExitApp">
+         <clobbers target="navigator.app" />
+      </js-module>
       <config-file target="config.xml" parent="/*">
          <feature name="CDVExitApp">
             <param name="ios-package" value="CDVExitApp" />
